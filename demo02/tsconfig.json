@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                // 目标 JavaScript 版本
+    "module": "ESNext",             // 模块系统
+    "lib": ["DOM", "ESNext"],       // 启用的库类型
+    "jsx": "react-jsx",             // 解析 JSX 并生成 React 元素
+    "moduleResolution": "Node",     // 模块解析策略
+    "strict": true,                 // 严格类型检查
+    "esModuleInterop": true,        // 兼容 CommonJS 和 ES6 模块
+    "skipLibCheck": true,           // 跳过库文件的类型检查
+    "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致
+    "outDir": "./dist",             // 编译输出目录（可选，由 webpack 控制）
+    "rootDir": "./src"              // 源码根目录
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
